@@ -14,11 +14,11 @@ sudo chmod -R 0777 /tools
 cd /tools || exit
 
 # Set Background Images
-mkdir -p images
-cd images || exit
-wget https://carhacking.tools/install/images/background.gif -O background.gif
-gsettings set org.gnome.desktop.background picture-uri "/tools/images/background.gif"
-cd .. || exit
+#mkdir -p images
+#cd images || exit
+#wget https://carhacking.tools/install/images/background.gif -O background.gif
+#gsettings set org.gnome.desktop.background picture-uri "/tools/images/background.gif"
+#cd .. || exit
 
 # Configure Desktop
 gsettings set org.gnome.desktop.background primary-color '#000000'
